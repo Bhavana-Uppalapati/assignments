@@ -1,0 +1,45 @@
+*{
+    font-family: Nunito;
+}
+.navbar-nav li a {
+        text-decoration: none;
+        color: #2f4744;
+        color: #405263!important;
+        font-size: 1.2rem!important;
+        line-height: 2.5rem!important;
+        padding: 10px 20px!important;
+        font-weight: 600;
+       
+}
+.navbar-nav li a:hover{
+    color: blue
+}
+.bannersec h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 700; font-size: 1.9rem; 
+    line-height: 1.5; 
+}
+
+.bannersec p{
+    margin-bottom: 30px;
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #405263;
+}
+.container .my_button {
+    background-color: #ff6d00;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 52px;
+    width: 35%;
+    border: none;
+    cursor: pointer;
+}
+
+

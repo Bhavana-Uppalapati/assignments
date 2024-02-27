@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head><title>form</title>
+        <style>
+            label{
+                width: 100px;
+                display: inline-block;
+            }
+            #form{
+                border-radius: 1px;
+                border-style:groove;
+                border-color: blueviolet;
+                background-color: white;
+                color:black;
+                width: 1000px;
+
+            }
+        </style>
+    </head>
+        <body>
+            <div id="form"> 
+            <form>
+                <div style="margin-bottom: 20px;">
+                    <label for="first name">First Name:</label>
+                    <input type="text" name="first name" id="first name"/>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="last name">Last Name:</label>
+                    <input type="text"/>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label>Password:</label>
+                    <input type="password">
+                </div>
+                <div>
+                    <label>Confirm password:</label>
+                    <input type="password">
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="Gender" value="male">male
+                    <input type="radio" name="Gender" value="female">female
+                </div>
+                <div>
+                    <label for="language">languages known</label>
+                    <input type="checkbox" name="language" value="html">html
+                    <input type="checkbox" name="language" value="css">css
+                </div>
+                <div>
+                    <label for="resume">upload file</label>
+                    <input type="file" name="resume" id="resume">
+                </div>
+
+            </form>
+            </div>
+        </body>
+    
+</html>

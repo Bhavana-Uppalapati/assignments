@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    overflow-x: hidden;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    place-items: center;
+    width: 100%;
+}
+ .nav_links a{
+    color: white;
+    text-decoration: none;
+}
+.nav_links ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.nav_links a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.logo img{
+    width: 134px;
+    height: 74px;
+}
+.signup button{
+ 
+    font-family: Poppins;
+    /* font-weight: 500;
+    line-height: 30px; */
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    padding: 11px 19px 11px 19px;
+}
+.signup button:hover{
+    padding-right: 25px;
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+}
+
+.banner{
+    /* width: 100%; */
+height: 800px;
+background: linear-gradient(101.59deg, #191727 0.73%, #182357 99.5%);
+background-image: url(../HTML/assests/project2.html/bannerimage.png);
+aspect-ratio: auto;
+background-size: cover;
+background-repeat: no-repeat;
+object-fit: cover;
+background-position: center;
+position: relative;
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+/* .banner img{
+    width: 100%;
+height: 682px;
+
+
+
+} */
+.banner p:first-child
+{
+    font-family: Raleway;
+font-size: 48px;
+font-weight: 600;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+position: relative;
+
+/* width: 455px;
+height: 65px; */
+
+/* background: #FFFFFF; */
+
+}
+.banner p:nth-child(2){
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+
+color: white;
+position: relative;
+
+
+}
+.banner div{
+    /* width: 100%; */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner button{
+    
+        /* width: 77px;
+        height: 30px; */
+        font-family: Poppins;
+        /* font-weight: 500;
+        line-height: 30px; */
+        background-color: blue;
+        color: white;
+        border-radius: 50px;
+        padding: 11px 19px 11px 19px;
+        position: relative;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border: none;
+
+       
+    
+}
+.content{
+ 
+
+height: 600px;
+display: grid;
+grid-template-columns: 600px 600px;
+place-items: center;
+
+
+
+}
+/* .content{
+    padding-left: 80px;
+} */
+.content_img img{
+    width: 400px;
+height: 400px;
+border-radius: 20px;
+
+
+}
+
+.Content1 h3 ,.Content2 h3{
+    font-family: Raleway;
+font-size: 40px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+}
+.Content1{
+    margin-bottom: 20px;
+}
+.Content1 p , .Content2 p{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.cirriculum{
+    /* width: 100%; */
+    height: 900px;
+    background: #14121E;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cirriculum_content{
+background: #17245B;
+width: 1111px;
+height: 642px;
+/* top: 80px;
+left: 141px; */
+border-radius: 26.94px;
+padding: 5px;
+box-shadow: 3px 9px 4px 0px #00000080;
+
+}
+.cirriculum_image img{
+    width: 584px;
+height: 414px;
+/* top: 1804px
+left: 768px */
+border-radius: 20px;
+
+}
+ .Cirriculumcontent1{
+    display: flex;
+   
+  
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+}
+
+.Cirriculum_heading p:first-child{
+    font-family: Raleway;
+    
+font-size: 46px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+    
+}
+.Cirriculum_heading p:last-child{
+    font-family: Poppins;
+    width: 30vw;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    }
+
+
+
+
+.Cirriculum_list h4{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.Cirriculum_list li{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.button button{
+    width: 196px;
+height: 58px;
+top: 657px;
+left: 15px;
+padding: 11px 19px 11px 19px;
+border-radius: 50px;
+gap: 10px;
+background: #0030FF;
+color: white;
+border: none;
+
+}
+.Cirriculumcontent1 li::marker{
+    content: '>>';
+    width: 12.5px;
+height: 10.42px;
+font-size: 17px;
+
+
+}
+.meet_your_instructor{
+    /* width: 100%; */
+    height: 720px; 
+}
+
+.instructor_image  {
+    width: 510px;
+height: 401px;
+
+
+}
+.instructor_image img{
+width: 394px;
+height: 401px;
+aspect-ratio: auto 394 / 401;
+border-radius: 0px 150px 0px 150px;
+margin:auto ;
+
+}
+
+
+
+.about_instructor p:first-child{
+font-family: Raleway;
+font-size: 30px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+width: 216px;
+height: 56px;
+
+
+}
+.about_instructor p:last-child{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+width: 586px;
+height: 150px;
+}
+.instructor{
+    height: 120px;
+}
+.instructor h3{
+    font-family: Raleway;
+font-size: 46px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0em;
+
+margin: auto;
+margin-top: 20px;
+width: 442px;
+height: 56px;
+
+
+}
+.instructor_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+footer{
+    background: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+   
+    
+    height: 350px;
+    padding: 20px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer_image img{
+    width: 135px;
+height: 74px;
+}
+.footer_icons i{
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+.list1 p:first-child ,.list2 p:first-child {
+    font-family: Manrope;
+font-size: 21px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+footer li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.list1 li ,.list2 li {
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.footer_icons img{
+    height: 25px;
+    width: 25px;
+
+}
+
+.footer_icons i{
+    height: 25px;
+    width: 25px;
+    color: green;
+
+}
+.email p:first-child , .email p:nth-child(3){
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+
+}
+.email p:nth-child(2) , .email p:nth-child(4){
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+
+}
+footer .search{
+    display: flex;
+    flex-direction: column;
+}
+.search p:first-child{
+    font-family: Lexend;
+font-size: 18px;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: 0px;
+margin-left: 20px;
+color: white;
+
+}
+.search input{
+    width: 370.5px;
+height: 40.65px;
+background: transparent;
+border: 1.45px solid #FFFFFF;
+border-radius: 20px;
+}
+::placeholder{
+    color: white;
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.search i:nth-child(2){
+     color: white;
+     position: relative;
+     left: 11px;
+     top: 27px;
+}
+footer li:hover{
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.footer_icons img:hover{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.footer_icons i:hover{
+    cursor: pointer;
+    font-size: 25px;
+
+}
+.last{
+    color: white; margin-top: 20px;
+}
+
+/* .search i:last-child{
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: 31px;
+} */
+
+@media screen and (min-width:300px) and (max-width:786px){
+   header .logo{
+    grid-column: span 4;
+   }
+   header .nav_links{
+    grid-column: 1/4;
+   }
+   .banner{
+    height: 500px;
+   }
+   .banner p:first-child {
+    font-size: 42px;
+   }
+
+   .banner p:nth-child(2) {
+    font-size: 21px;
+    line-height: 45px;
+   }
+   .banner::before{
+    height: 500px;
+}
+.banner div{
+  
+    height: 500px;
+   
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+ margin-top: 20px;
+}
+   
+.content_img img{
+        width: 300px;
+    height: 300px;
+    border-radius: 20px;
+   
+}
+    
+ .Content1 h3 ,.Content2 h3{
+   
+    text-align: center;
+ }
+    .Content1{
+        margin-bottom: 20px;
+    }
+    .Content1 p , .Content2 p{
+  
+    font-size: 18px;
+  }
+  .cirriculum{
+  
+    height: 720px;
+   
+    margin-top: 20px;
+  }
+
+.cirriculum_content{
+
+width: auto;
+height: auto;
+
+}
+.cirriculum_image img{
+
+display: none;
+
+}
+
+  .Cirriculum_heading p:first-child{
+   
+    text-align: center;
+
+}
+.Cirriculum_heading p:last-child{
+    
+    width: 90vw;
+    font-size: 20px;
+    
+    text-align: center;
+  
+    }
+
+.Cirriculum_list h4{
+   
+text-align: center;
+}
+.Cirriculum_list li{
+ 
+text-align: center;
+
+width: 90vw;
+
+}
+
+.button{
+    text-align: center;
+}
+.meet_your_instructor{
+    /* width: 100%; */
+    height: auto; 
+
+}
+.instructor_image{
+    height: auto;
+    width: auto;
+}
+
+.instructor_image img{
+width: 348px;
+height: 348px;
+aspect-ratio: auto 394 / 401;
+border-radius: 0px 150px 0px 150px;
+text-align: center;
+
+}
+
+.about_instructor p:first-child{
+font-family: Raleway;
+font-size: 30px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+width: auto;
+height: auto;
+
+}
+.about_instructor p:last-child{
+
+font-size: 20px;
+
+line-height: 30px;
+
+width: auto;
+height: auto;
+
+}
+
+.instructor h3{
+    
+font-size: 32px;
+
+line-height: 106px;
+margin-top: 20px;
+
+}
+.instructor_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+}
+

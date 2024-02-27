@@ -1,0 +1,60 @@
+
+h3{
+    color: blue;
+}
+.heading{
+    text-align: center;
+}
+
+.fee{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.125);;
+    width: 450px;
+    
+}
+.feeparent{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fee1,.fee2{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.fee2{
+    background-color: #f3f4f5;
+}
+.amount p:first-child{
+    color: green;
+    font-size: 20px;
+}
+
+.fee_details1 small:last-child{
+    background-color: #f0fffa;;
+}
+.join{
+    text-align: center;
+}
+
+button{
+    background-color: #ff6d00; 
+    color: white; 
+    font-size: 18px;
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    height: 50px; 
+    width: 20%;
+    border-radius: 10px;
+    border: none; 
+    cursor: pointer;
+}
+
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

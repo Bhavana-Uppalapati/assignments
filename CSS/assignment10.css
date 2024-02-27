@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#2F4744;
+    
+}
+
+.content{
+    text-align: center;
+    padding-top: 20px;
+}
+#blue{
+    color: blue;
+    font-weight: 600;
+}
+#green{
+    color: green;
+    font-weight: 600;
+}
+.steps_to_get_placed{
+    display: flex;
+    
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    
+}
+
+.content, .content h2, .content p:nth-child(3),.content p:nth-child(5), .Click_to_join p{
+    margin-bottom: 20px;
+}
+.number{
+    font-size: 30px;
+    color: blue;
+    }
+
+.steps_to_get_placed i{
+    font-size: 50px;
+    color: blue;
+}
+.steps_to_get_placed > div{
+    margin-left: 100px;
+    
+}
+
+.Click_to_join{
+    text-align: center;
+}
+.Click_to_join h4{
+    color: green;
+    margin-bottom: 20px;
+    font-size: large;
+}
+button{
+    background-color: #ff6d00; 
+    color: white; 
+    font-size: 18px;
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    height: 50px; 
+    width: 20%;
+    border-radius: 10px;
+    border: none; 
+    cursor: pointer;
+    margin-bottom: 10px;
+}

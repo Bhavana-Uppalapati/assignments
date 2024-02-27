@@ -1,0 +1,22 @@
+.child{
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 400px;
+    height: 200px;
+    border:1px solid  white;
+}
+.box{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.child button:nth-child(2){
+    background-color: green;
+    color: white;
+
+}
+.child button:last-child{
+    background-color: blue;
+    color: white;
+}

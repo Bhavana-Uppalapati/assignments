@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/formtask.css">
+</head>
+<body>
+    <h1>project Management</h1>
+    <form action="">
+        <label for="projectname">Project Name</label>
+        <input type="text" placeholder="project name" id="projectname"> <br> <br>
+        <label for="assignedto">Assigned to</label>
+        <input list="assigned" name="assignedto" id="assignedto">
+        <datalist id="assigned">
+            <option value="Er Merry Petision">
+            <option value="Enstien">
+            <option value="Merry">
+            <option value="harry">
+        </datalist>
+          <br> <br>
+        <label for="startdate">Start Date</label>
+        <input type="date" id="startdate" class="datelabel"> <br> <br>
+        <label for="enddate">End date</label>
+        <input type="date" id="enddate"> <br> <br>
+        <label for="prority">Priority</label>
+        <input type="radio" value="priority" class="radio"> <span class="radio">High</span> 
+        <input type="radio" value="priority" class="radio"> <span class="radio">Average</span> 
+        <input type="radio" value="priority" class="radio"> <span class="radio">Low</span> 
+        <br> <br>
+        <div class="textbox">
+        <label for="Description">Description</label> 
+        <textarea name="Description" id="Description" cols="27" rows="3"></textarea>  </div> <br> <br>
+       
+        <div style="padding-left: 50px;">
+        <button id="button1" >Submit</button> 
+        <button id="button2" > Clear</button>
+        </div>
+    </form>
+</body>
+</html>

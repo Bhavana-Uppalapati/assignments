@@ -1,0 +1,290 @@
+/* html,body{
+ 
+  overflow-x: hidden;
+} */
+html{
+  position: relative;
+}
+.navbar-nav li a {
+  color: #405263 !important;
+  font-size: 1.2rem !important;
+  line-height: 2.5rem !important;
+
+  font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+  color: blue !important;
+}
+.navbar-nav {
+  margin-left: 7rem !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 1.5;
+}
+#banner{
+  padding-top: 114px;
+}
+#banner p {
+  margin-bottom: 30px;
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #405263;
+}
+
+#banner .note,
+#advantages .note,
+#admission .note,
+#remember .note ,
+#price .note{
+  margin-top: 15px;
+  font-size: 0.75rem;
+
+  font-weight: 700;
+}
+
+#you{
+  background: #fafbfc;
+    /* padding: 50px 0 50px 0; */
+}
+#you ul > li {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  padding: 0 0 10px 15px;
+  
+}
+#you ul > li::marker{
+ 
+ content: '-';
+ font-size: 40px;
+ color: blue;
+  
+ 
+ 
+  
+}
+#from{
+  background: #fff;
+  padding: 50px 0 50px 0;
+}
+#from .from_content h3{
+  line-height: 1.5;
+  
+}
+#from .from_content P:nth-child(3) {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+.from_content P:last-child {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+#advantages{
+  background: #fafbfc;
+  padding: 50px 0 50px 0;
+}
+#advantages h4{
+  font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+#advantages .icon > i {
+  font-size: 2.5rem;
+  color: blue;
+  margin-bottom: 10px;
+}
+#advantages p {
+  color: #7c8595;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+#advantages button,
+#admission button,
+#remember button,
+#from button,
+#banner button,
+#price button{
+  background-color: #ff6d00;
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px 30px;
+  letter-spacing: 1px;
+  border-radius: 5px 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.5);
+}
+.ciriculum{
+  background: #fff;
+  padding: 50px 0 50px 0;
+}
+.ciriculum .card-body{
+  background-color: #f8fdfd;
+}
+#mentors {
+  background: #fafbfc;
+  padding: 50px 0 50px 0;
+}
+#mentors .mentor_data {
+  text-align: left;
+  color: #2f4744;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+#employers {
+  padding: 50px 0 25px 0;
+}
+#employers h2,
+#admissions h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#employers p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+.scroll img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+#admission {
+  background: #fafbfc;
+  padding: 50px 0 50px 0;
+}
+#admission p {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+#admission i {
+  position: relative;
+  font-size: 4rem !important;
+  text-align: center;
+  color: #004ba8;
+}
+#admission .number {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #004ba8;
+}
+#price {
+  background: #fff;
+  padding: 50px 0 50px 0;
+}
+#price ol li{
+    list-style: none!important;
+}
+.dropdown {
+  background: #fafbfc;
+  padding: 50px 0 50px 0;
+}
+#remember {
+  background: #edf8f4;
+  padding: 50px 0;
+}
+#remember ul li {
+  list-style-type: none;
+  line-height: 1.75rem;
+  font-size: 1.1rem;
+}
+#remember ul li i {
+  margin-right: 5px;
+}
+#remember p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#footer {
+    background-color: #2f4744;
+    padding: 2rem 4rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    font-weight: 700;
+    margin-top: 0;
+}
+#footer ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    font-size: 1.1rem;
+   
+}
+#footer ul li{
+    margin-left: 30px;
+}
+#footer i{
+    display: flex;
+    justify-content: end;
+    color: blue;
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+#price .title{
+  font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #071e55;
+}
+/* @media screen and (max-width: 768px){
+#banner .worried_image {
+    width: 40%;
+    position: absolute;
+    top: -300px;
+    z-index: 555;
+    right: -75px;
+}
+} */
+
+@media screen and (min-width:576) and (max-width:768px){
+ 
+}
+@media screen and (min-width:768px) and (max-width:992px){
+ 
+
+ #mentors .mentor_image{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+#mentors .mentor_data{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+}

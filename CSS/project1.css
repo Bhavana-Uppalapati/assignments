@@ -1,0 +1,369 @@
+.header  {
+    text-align: center;
+    background-color: #9104c4;
+    color: white;
+    height: 30px;
+    padding-top: 7px;
+
+}
+.header >a {
+    color: white;
+}
+select{
+    margin-left: 150px;
+    
+    
+}
+ .navbardiv2 a {
+   
+    text-decoration: none;
+    color: black;
+}
+.navbardiv2 a:hover{
+    text-decoration: underline;
+}
+.search_box i{
+    position: relative;
+    right: 28px;
+    top: 7px;
+}
+
+
+.navbar, .navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar_logo img{
+          width: 120px;
+}
+.navbar li{
+    margin-left: 45px;
+    font-size: 18px;
+}
+.navbar .search input:first-child,.search i:nth-child(2),.search i:nth-child(3),.search i:last-child{
+    margin-left:  10px;
+}
+.navicons{
+    margin-left: 16px;
+    padding-right: 90px;
+    font-size: 20px;
+}
+.search input{
+    height: 30px;
+    width: 190px;
+}
+.search{
+    display: flex;
+}
+.search_box i:nth-child(2){
+   
+        position: relative;
+        right: 30px;
+        top: 2px;
+}
+
+
+.navicons i:last-child{
+    color: #9104c3;
+}
+
+.navbar{
+    border-bottom: 1px solid;
+}
+.items_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.vl{
+    border-right: 1px solid;
+    margin-left: 90px;
+    
+} 
+.items_list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 90px;
+    padding-top: 20px;
+    list-style-type: none;
+    
+}
+.items_list li{
+    margin-bottom: 10px;
+}
+.items_list li:hover{
+    background-color: rgba(94, 89, 89, 0.2);
+    cursor: pointer;
+}
+.items_list img{
+    height: 270px;
+    width: 944px;
+    padding:20px 111px 20px 0px ;
+   
+}
+.Flash_sales {
+    padding: 25px;
+  
+}
+  .Flash_sales h2{
+    padding-left: 30px;
+    font-size: 30px;
+
+}
+.header_FS{
+    padding-left: 68px;
+}
+.header_categeory , .header_BSP ,.header_EP ,.header_NA{
+    padding-left: 44px;
+}
+.header_FS,.header_categeory , .header_BSP , .header_EP , .header_NA{
+    display: flex;
+    align-items: center;
+}
+.header_FS .box, .header_categeory .box , .header_BSP .box, .header_EP .box ,.header_NA .box{
+    width: 15px;
+    height: 30px;
+    background-color: #9104c3;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.header_FS p, .header_categeory p , .header_BSP p, .header_EP  p,.header_NA p{
+    color: #9104c3;
+    font-weight: 600;
+}
+.caption{
+    
+   margin-left: 60px;
+}
+s{
+    color: black;
+    font-weight: 400;
+}
+figcaption p:first-child{
+    font-weight: 600;
+}
+.stars{
+    display: flex;
+}
+figcaption div:last-child{
+    color: gold;
+}
+.stars div:last-child{
+    color: black;
+}
+.cards_FS{
+    display: flex;
+    margin-bottom: 30px;
+}
+.button{
+    text-align: center;
+    margin-bottom: 30px;
+}
+button{
+    background-color: #9104c3;
+    color: white;
+    font-weight: 600;
+    border: none;
+    height: 51px;
+    width: 173px;
+    border-radius: 5px;
+  
+}
+.heading_categeory , .heading_EP{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heading_categeory h2 , .heading_BSP h2 , .heading_EP h2 ,.heading_NA h2{
+    padding-left: 39px;
+    font-size: 30px;
+}
+.categeory , .Best_selling_products ,.Explore_products ,.New_arrived{
+    
+    padding: 30px 50px 50px 50px;
+    margin-bottom: 50px;
+}
+.categeory_box{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.categeory_box div{
+    border: solid;
+    width: 139px;
+    height: 120px;
+    text-align: center;
+}
+.categeory_box i{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.cards_BSP img, .cards_FS img , .cards_EP img{
+    width: 250px;
+    margin-left: 19px;
+}
+.cards_BSP{
+    display: flex;
+    
+}
+.poster img{
+    width: 1200px;
+    height: 400px;
+    padding-left: 121px;
+   
+}
+.cards_EP{
+    margin-bottom: 50px;
+}
+.Explore_products{
+    margin-bottom: -45px;
+}
+.New_Arrived{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.New_Arrived1 {
+    padding-left: 50px;
+}
+.New_Arrived2{
+    padding-right: 50px;
+}
+.NA2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.cards_EP ,.EPcards1 ,.EPcards2{
+    display: flex;
+    
+}
+.cost{
+    display: flex;
+    align-items: center;
+}
+.caption p{
+margin: 0;
+padding: 0;
+margin-right: 10px;
+}
+.cost div:nth-child(2){
+color: gold;
+}
+.circle{
+display: flex;
+align-items: center;
+
+}
+.circle div:first-child{
+    color:rgb(160, 87, 160);
+    font-size: 30px;
+}
+.circle div:last-child{
+color:#9104c3;
+font-size: 35px;
+}
+.cards_EP{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+   
+}
+.icon1 i , .icon2 i, .icon3 i{
+    color: #9104c3;
+    font-size: 30px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+.icon1 p , .icon2 p, .icon3 p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.icon_caption p:first-child{
+    font-weight: 600;
+    font-size: 25px;
+}
+.icon1{
+    padding-left: 141px;
+}
+.icon3{
+    padding-right: 150px;
+}
+footer{
+    background-color: #9104c3;
+    color: white;
+    height: 300px;
+}
+ footer .first{
+    
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+footer ul{
+    list-style-type: none;
+}
+footer input{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 25px;
+
+}
+ footer ::placeholder{
+    color: white;
+}
+.footer_img img{
+    width: 60px;
+    
+}
+.footer_img{
+    display: flex;
+}
+.footer_img .div2 img{
+    width: 90px;
+}
+footer ul li:first-child{
+    font-weight: 500;
+    font-size: 20px;
+}
+footer ul li{
+    margin-bottom: 20px;
+}
+.footer_img .div1{
+    margin-right: 10px;
+}
+footer .footericons{
+    margin-right: 3px;
+}
+footer{
+    padding: 70px;
+}
+.first{
+    margin-bottom: 60px;
+}
+.last{
+    text-align: center;
+    color: grey
+  
+}
+
+.footericons i{
+    margin-left: 10px;
+}
+
+
+

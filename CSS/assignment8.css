@@ -1,0 +1,39 @@
+.div_1{
+    text-align: center;
+
+}
+.div_1 > h4{
+    font-size: large;
+}
+
+.cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+ .cards .card1 , .cards .card2, .cards .card3 , .cards .card4 ,  .cards .card5{
+    border:1px solid;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: #f8fdfd;
+    padding: 10px;
+    
+}
+
+.week{
+    color: green;
+}
+
+.card1 h4, .card2 h4, .card3 h4 , .card4 h4 , .card5 h4{
+    color: blue;
+    font-size: large;
+}
+.card4{
+    margin-right: 150px;
+}
+
+
+

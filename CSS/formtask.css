@@ -1,0 +1,54 @@
+form{
+        background-color: aqua;
+        display:inline-block;
+        margin-left: 500px;
+       padding:20px;
+            
+        }
+        label{
+            width:100px;
+            display: inline-block;
+            font-weight: 600;;
+        }
+        form{
+            display:inline-block;
+            margin-left: 560px;
+            padding:20px
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        #button1{
+            background-color: green;
+            height: 30px;
+            width:60px;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            font-weight: 600;
+            margin-left: 20px;
+        
+        }
+
+    #button2{
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    width:60px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.textbox{
+    display: flex;
+    align-items: center;
+}
+.radio{
+    font-weight: 600;
+}
+
+
+        
+

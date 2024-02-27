@@ -1,0 +1,9 @@
+.box{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+}
+.box1,.box2 , .box3{
+    border: solid;
+}
